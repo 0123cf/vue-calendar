@@ -31,8 +31,15 @@ nowD  这个是开始的时间， 一般都是new Date()
 open  这个是控制开关
 cb    相当于大家熟悉的 :change
 
+### 效果图
+
+![](https://upload-images.jianshu.io/upload_images/6759456-0384632a4193ba0e.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/6759456-381b9773db0b4daa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 ### 源码解析
 -- 没写
 ### 其他
+样式有点丑， 因为不方便放公司的效果， 所以，style文件是书生随便写的。
 y-m-d 格式其实不是很好， 但是因为大家都这么做， 所以我也这样返回， 再new Date的时候， 记得把他改 y/m/d  因为safari无法解析
 ...
