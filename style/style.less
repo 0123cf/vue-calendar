@@ -1,0 +1,126 @@
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.4);
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+}
+.modal .show{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.calendar {
+    position: fixed;
+    top: 51px;
+    left: 0px;
+    right: 0px;
+    width: 94%;
+    margin: auto;
+    background-color: #fff;
+    z-index: 10000;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    transition-timing-function: linear;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+       -webkit-touch-callout: none;
+     box-shadow: 2px 4px 5px #febb2c52;
+}
+
+.scroll{
+    
+    height: 300px;
+    overflow: auto;
+}
+.moth-name{
+    line-height: 50px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.block{
+    display: inline-block;
+    width: 14.285714285714286%;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.noew-time-box{
+       
+}
+
+.time-text-box{
+    text-align: center;
+    padding: 10px 10px;
+}
+.noew-time-box span{
+    border-radius: 50%;
+    color: #363636;
+    border: 1px solid #999;
+}
+.show-time{
+    padding: 10px 0px; 
+    position: relative;
+}
+.center{
+    padding:0px 7px;
+}
+.no-op-t{
+    color: #999;
+}
+.success{
+    // box-shadow: inset 0px -1px 1px -1px #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    text-align: center;
+    line-height: 40px;
+}
+.success-ok{
+    color: #F7B52C;
+}
+
+.start-time-box{
+    background-color: #F7B52C;
+    color: #fff!important;
+    border-radius: 0px!important;
+    border-width: 0px!important;
+    border-top-left-radius: 50%!important;
+    border-bottom-left-radius: 50%!important;
+}
+.end-time-box{
+    background-color:#F7B52C;
+    color: #fff!important;
+    border-radius: 0px!important;
+    border-width: 0px!important;
+    border-top-right-radius: 50%!important;
+    border-bottom-right-radius: 50%!important;
+}
+.start-to-end-box{
+    background-color: #F7B52C;
+    color: #fff!important;
+    border-radius: 0px!important;
+    border-width: 0px!important;
+}
+.end-time-one-box, .start-time-one-box{
+    border-radius: 50%;
+    background-color: #F7B52C;
+    color: #fff;
+}
+.clear-box{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #999;
+    padding-left: 10px;
+}
+.clear-ok{
+    color: #F7B52C;
+}
+.is-exp{
+    color: #999;
+}
