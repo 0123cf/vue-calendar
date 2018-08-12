@@ -27,9 +27,9 @@ onFilter(start, end){
 }
 
 ### API
-nowD  这个是开始的时间， 一般都是new Date()
-open  这个是控制开关
-cb    相当于大家熟悉的 :change
+nowD  这个是开始的时间， 一般都是new Date() <br />
+open  这个是控制开关<br />
+cb    相当于大家熟悉的 :change<br />
 
 ### 效果图
 
