@@ -33,9 +33,9 @@ cb    相当于大家熟悉的 :change<br />
 
 ### 效果图
 
-![](https://upload-images.jianshu.io/upload_images/6759456-0384632a4193ba0e.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<!-- ![](https://upload-images.jianshu.io/upload_images/6759456-0384632a4193ba0e.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![](https://upload-images.jianshu.io/upload_images/6759456-381b9773db0b4daa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+ -->
 
 ### 源码解析
 -- 没写

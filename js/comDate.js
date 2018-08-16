@@ -28,7 +28,7 @@ let getMothList = (year, month, star) => {
     let mn = getMothNum(year)[month - 1]
     let arr = new Array(35)
         .fill('')
-        .map((_, i) => i - star + 1)
+        .map((_, i) => i - star + 2)
         .map(e => 
             (e > 0 && e <= mn)
             ? ({
@@ -53,5 +53,5 @@ export default  {
 }
 
 // console.log(getMothNum(year))
-// console.log(getStarNV(year, month, date))
+// console.log(getStarNV(2018, 8, 16))
 // console.log(getStarNV(year, month, 1))
