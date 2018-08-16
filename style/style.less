@@ -1,3 +1,24 @@
+
+.flex{
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+}
+.alignItems{
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.justifyTwo{
+    justify-content:space-between;
+}
+.justifyCenter{
+    justify-content: center;
+}
+
 .modal{
     position: fixed;
     left: 0;
@@ -7,12 +28,17 @@
     width: 100vw;
     height: 100vh;
 }
+*{
+    padding: 0px;
+    margin: 0px;
+}
 .modal .show{
     width: 100%;
     height: 100%;
     opacity: 1;
 }
 .calendar {
+    font-size: 14px;
     position: fixed;
     top: 51px;
     left: 0px;
