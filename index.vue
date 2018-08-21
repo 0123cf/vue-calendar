@@ -39,9 +39,7 @@
 						endTime2 === item.timev &&  !startTime2 ? 'end-time-one-box' :'',
 						isTimeCenter(startTime2, endTime2, item.timev) && 'start-to-end-box'
 					 ]"
-					 >
-					 {{item.v}}
-					 </span>
+					 >{{item.v}}</span>
 				</div>
 			</div>
 		</div>
